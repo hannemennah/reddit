@@ -38,7 +38,7 @@ cpdef double epoch_seconds(date):
     return td.days * 86400 + td.seconds + (float(td.microseconds) / 1000000)
 
 cpdef long score(long ups, long downs):
-    return ups - downs
+    return (((ups/max(1, downs)) - (downs/max(1,ups))) * (ups+downs))
 
 cpdef double hot(long ups, long downs, date):
     return _hot(ups, downs, epoch_seconds(date))

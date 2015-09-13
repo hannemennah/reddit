@@ -4,7 +4,7 @@
 
 Greetings!
 
-This is the primary codebase that powers [reddit.com](http://www.reddit.com).
+This is the primary codebase that powers [reddit.com](http://www.reddit.com), but with minor tweaks added by yours truly. Primarily, I've adjusted the "score" function to rank controversial posts a little more favorably versus easy-to-digest upvote magnets like cat pictures.
 
 For notices about major changes and general discussion of reddit development, subscribe to the [/r/redditdev](http://www.reddit.com/r/redditdev) and [/r/changelog](http://www.reddit.com/r/changelog) subreddits. 
 
